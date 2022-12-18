@@ -9,4 +9,8 @@ import Posts from "components/Posts";
 import Profile from "components/Profile";
 import Register from "components/Register";
 
-export default App;
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
